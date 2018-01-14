@@ -1,0 +1,12 @@
+{
+    "extends": "airbnb",
+    "parser": "babel-eslint",
+    "rules": {
+        "linebreak-style": 0,
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "arrow-parens": [0],
+        "arrow-body-style": [2, "always"],
+        "jsx-a11y/click-events-have-key-events": [0 , "error"],
+        "jsx-a11y/no-static-element-interactions": [0 , "error"]
+    }
+}
